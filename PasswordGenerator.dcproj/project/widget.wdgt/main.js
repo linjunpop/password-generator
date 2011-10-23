@@ -241,3 +241,11 @@ function btn_algorithms_click() {
         return false;
     }
 }
+
+function key_press_generate_password(event)
+{
+    if (event.keyCode == 13) {
+        btn_generate_click();
+        return false;
+    }
+}
